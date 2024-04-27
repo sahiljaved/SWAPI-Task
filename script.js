@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
     fetchData('people');
 
     function fetchData(type) {
-        fetch(`http://swapi.py4e.com/api/${type}/`)
+        fetch(`https://swapi.py4e.com/api/${type}/`)
             .then(response => response.json())
             .then(data => {
                 console.log(data);
