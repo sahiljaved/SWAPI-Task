@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", function() {
         fetch(`https://swapi.py4e.com/api/${type}/`)
             .then(response => response.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 displayData(data.results, type);
             })
             .catch(error => {
