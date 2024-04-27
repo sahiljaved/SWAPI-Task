@@ -15,11 +15,11 @@ This project is a simple web application that fetches and displays data from the
 ## Hot to use:
 1. Clone the repository to your local machine:
 ```
-git clone https://github.com/yourusername/star-wars-api-listings.git
+https://github.com/sahiljaved/SWAPI-Task.git
 ```
 2. Navigate to the project directory:
 ```
-cd star-wars-api-listings
+cd SWAPI-Task
 ```
 3. Open the index.html file in your web browser.
 4. Use the dropdown menu to select the type of data you want to view (People, Films, or Vehicles).
